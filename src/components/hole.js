@@ -33,9 +33,7 @@ class Hole extends Component {
       <View
         style={[styles.container, holeExtraStyle]}
         onLayout={this.handleLayout}
-      >
-        <Text> {x}-{y} </Text>
-      </View>
+      />
     );
   }
 }
